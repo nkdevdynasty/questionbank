@@ -5,10 +5,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'SDVM',
-			customCss: [
-				'./src/styles/custom.css',
-			  ],
+			title: 'My Docs',
 			social: {
 				github: 'https://github.com/withastro/starlight',
 			},

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+body{
+    background:linear-gradient(to right, rgb(237,186,21) 15%,rgb(237,186,21) 18%,rgb(237,186,21) 18%,rgb(237,147,68) 87%);
+}
+.astro-v37mnknz:hover{
+   
+     background: linear-gradient(to right, rgb(237,186,21) 15%,rgb(237,186,21) 18%,rgb(237,186,21) 18%,rgb(237,147,68) 87%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+*/ 
+    
+
+}
+.astro-m46x6ez3{
+    font-family:'Protest Revolution', sans-serif; 
+}
+h1{
+    font-family: 'protest Revolution',sans-serif;
+}
