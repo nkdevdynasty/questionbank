@@ -30,10 +30,13 @@ export default defineConfig({
 						{ label:'Botany' ,
 					autogenerate:{  directory: 'Botany' },
 					items:[{ label:'Semester1',
-					autogenerate:{  directory: 'Semester1' }},
-					{ label:'core1', link: '/honours/botany/sem1/' },
-					{ label:'core2',
-					autogenerate:{  directory: 'core2' }},
+					autogenerate:{  directory: 'Semester1' },
+					items:[{ label:'core1',
+					autogenerate:{  directory: 'core1' },
+				items:[{ label:'questions', link: 'honours/botany/sem1/core1/questions'}]},
+
+				],},
+					
 					{ label:'Semester2',
 					autogenerate:{  directory: 'Semester2' }},
 					{ label:'Semester3',
