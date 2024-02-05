@@ -6,12 +6,15 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'SDVM',
+			logo: {
+				src: './src/assets/sdvm-logo.jpeg',
+			  },
 			customCss: [
 				'./src/styles/custom.css',
 			  ],
-			social: {
-				github: 'https://github.com/withastro/starlight',
-			},
+			  social: {
+				  github: 'https://github.com/withastro/starlight',
+			  },
 			sidebar: [
 				{
 					label: 'Guides',
