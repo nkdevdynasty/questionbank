@@ -1,21 +1,23 @@
-# Question Bank
+# questionbank
 
-> This is the official repo to store the questionbank of **NkNagar Organisation**
+## Use the official color pallette and font
 
-### How to run local
-- Clone the repoto ll
-- Insall Starlight using this command -> `npm create astro@latest -- --template starlight`
-- Start the dev server -> `npm dev`
+- Font from this location ->  https://www.fontpair.co/fonts/acarisansneue
 
-### How to contribute to this project
+- Pallette from this location -> https://coolors.co/palette/f94144-f3722c-f8961e-f9844a-f9c74f-90be6d-43aa8b-4d908e-577590-277da1
 
-- Run a local isntance of this project following the instructions given above.
-- Then follow the official documentation given [here](https://starlight.astro.build/getting-started/) to your own content.
+- Pallette goes here
+  - f94144
+  - f3722c
+  - f8961e
+  - f9844a
+  - f9c74f
+  - 90be6d
+  - 43aa8b
+  - 4d908e
+  - 577590
+  - 277da1
+<!-- 
+  ![Color Pallette Screenshot](/workspaces/questionbank/src/content/custom-styles/color-pallette.jpg) -->
 
-### Rules to follow while contrrbuting
 
-- The main branch will be under **branch protection**, so you won't be able to push to it striaght.
-- Raise a PR to submit new content.
-- All the PRs will go through a review of the faculty of Computer Science Department.
-- Once the permission is given from the **Org Owner**/**Repo Owner**/**Faculty of CS Department**, the code will be merged into main.
--  The deployment is pretty simple it might take 30sec to  1 min to show the new changes in the official website.
