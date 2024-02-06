@@ -1,7 +1,12 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 @import url('https://fontlibrary.org//face/acari-sans-neue');
 body{
     background:linear-gradient(to right, rgb(237,186,21) 15%,rgb(237,186,21) 18%,rgb(237,186,21) 18%,rgb(237,147,68) 87%);
+}
+button:where(.astro-v37mnknz)[data-open-modal] {
+    border-radius: 2rem;
+    max-width:30rem;
 }
 .astro-v37mnknz:hover{
 
@@ -14,4 +19,25 @@ body{
 }
 h1{
     font-family: 'AcariSansNeueRegular',sans-serif;
+}
+.sidebar-content{
+    background-color:#fad06d;
+}
+.header{
+    background: none;
+    /* background-color: #277da1; */
+    /* color:#43aa8b;
+    border-radius:38px;
+    margin-top: 03px;
+    padding: 10px; */
+    border:0px;
+}
+.astro-m46x6ez3{
+    color:#488cc7;
+    font-weight: 200px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.sl-flex{
+    justify-content: center;  
 }
