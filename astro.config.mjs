@@ -6,10 +6,10 @@ import { custom } from 'zod';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'SDVM',
 			customCss: ['./src/content/custom-styles/custom.css'],
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				
 			},
 			sidebar: [
 				{
@@ -18,10 +18,13 @@ export default defineConfig({
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Computer Science',
+						  autogenerate:{ directory: 'computerscience'},
 						    items: [
 								{ label: 'core-1',
+								  autogenerate:{ directory: 'core-1'},
 								    items: [
-										{ label: '2023', link:'/honours/computer science/core-1/2023'}
+										{ label: '2023', link:'/honours/computerscience/core-1/2023'},
+										{ label: '2022', link:'/honours/computerscience/core-1/2022'}
 									]
 							      }
 							] 
