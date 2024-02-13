@@ -13,15 +13,20 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Honours',
+					autogenerate:{ directory: 'honours'},
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
+						{ label: 'Computer Science',
+						    items: [
+								{ label: 'core-1',
+								    items: [
+										{ label: '2023', link:'/honours/computer science/core-1/2023'}
+									]
+							      }
+							] 
+					      },
 					],
-				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
 				},
 			],
 		}),
