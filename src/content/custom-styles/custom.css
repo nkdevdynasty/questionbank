@@ -1,9 +1,9 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 @import url('https://fontlibrary.org//face/acari-sans-neue');
-body{
+/* body{
     background-color: rgb(255, 255, 240);
-}
+} */
 button:where(.astro-v37mnknz)[data-open-modal] {
     border-radius: 2rem;
     max-width:30rem;
